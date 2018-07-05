@@ -1,3 +1,4 @@
+#只有在对象中改变成员变量的值后，才改变成员变量的id
 #首先定义一个类，这个类里面有name和age两个参数
 class Student():
     name = "ming"
