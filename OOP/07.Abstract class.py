@@ -30,4 +30,3 @@ class Corgi(Dog):
 
 dou_dou = Corgi()
 dou_dou.bark()
-
