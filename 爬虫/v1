@@ -1,0 +1,9 @@
+from urllib import request
+
+if __name__ == '__main__':
+    rsp = request.urlopen('https://www.douban.com/')
+    # 打开相应的url并把相应页面返回
+
+    html = rsp.read()  # 返回可读形式
+    html = html.decode()  # 需要解码
+    print(html)
